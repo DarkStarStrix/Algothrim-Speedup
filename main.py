@@ -2,9 +2,6 @@ import time
 import numpy as np
 import matplotlib.pyplot as plt
 from multiprocessing import Pool
-import pyximport;
-
-pyximport.install()
 
 
 # Define matrix multiplication function (optimized, possibly in Cython)
