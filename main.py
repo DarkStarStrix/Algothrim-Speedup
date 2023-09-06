@@ -46,3 +46,7 @@ if __name__ == "__main__":
     # Display the plot (you can also save it as an image)
     plt.show()
 
+    # Print the results
+    for size, time in runtimes:
+        print(f"Matrix size: {size} x {size} | Execution time: {time} seconds")
+
